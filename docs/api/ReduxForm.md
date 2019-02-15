@@ -241,8 +241,8 @@ at "design time" or passed in as props to your component at runtime.**
 
 > ##### `trigger : String` [required]
 
-> The reason to possibly run async validation. It will either be: `'blur'`,
-> `'change'` or `'submit'`, depending on whether a field, either blurred or
+> The reason to possibly run async validation. It will be one of `'blur'`,
+> `'change'` and `'submit'`, depending on whether a field, either blurred or
 > changed, had triggered the async validation or if submitting the form has
 > triggered it, respectively.
 
